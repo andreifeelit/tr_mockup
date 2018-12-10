@@ -1,0 +1,431 @@
+{
+    "filters": {
+        "dates": {
+            "0": "outbound",
+            "1": "inbound",
+            "outbound": {
+                "2018-09-13": 85
+            },
+            "inbound": {
+                "2018-09-21": 85
+            }
+        },
+        "companies": {
+            "outbound": {
+                "SU": {
+                    "name": "Aeroflot",
+                    "total": 430,
+                    "total_per_pax": 430,
+                    "id": 524,
+                    "total_sort": 0,
+                    "total_per_pax_calc": "Creation"
+                },
+                "AF": {
+                    "name": "Air France",
+                    "total": 500,
+                    "total_per_pax": 500,
+                    "id": 234,
+                    "total_sort": 0,
+                    "total_per_pax_calc": "Creation"
+                },
+                "JU": {
+                    "total": 436,
+                    "name": "Air Serbia",
+                    "id": 172,
+                    "total_per_pax": 436,
+                    "desc": "OW"
+                },
+                "AZ": {
+                    "total": 472,
+                    "name": "Alitalia",
+                    "id": 509,
+                    "total_per_pax": 472,
+                    "desc": "OW"
+                },
+                "B2": {
+                    "total": 309,
+                    "name": "Belavia",
+                    "id": 263,
+                    "total_per_pax": 309,
+                    "desc": "OW"
+                },
+                "OK": {
+                    "total": 335,
+                    "name": "CSA",
+                    "id": 131,
+                    "total_per_pax": 335,
+                    "desc": "OW"
+                },
+                "IB": {
+                    "total": 482,
+                    "name": "Iberia",
+                    "id": 512,
+                    "total_per_pax": 482,
+                    "desc": "OW"
+                },
+                "KL": {
+                    "total": 475,
+                    "name": "KLM",
+                    "id": 177,
+                    "total_per_pax": 475,
+                    "desc": "OW"
+                },
+                "LO": {
+                    "name": "LOT - Polish Airlines",
+                    "total": 228,
+                    "total_per_pax": 228,
+                    "id": 189,
+                    "total_sort": 0,
+                    "total_per_pax_calc": "Creation"
+                },
+                "LH": {
+                    "name": "Lufthansa",
+                    "total": 224,
+                    "total_per_pax": 224,
+                    "id": 518,
+                    "total_sort": 0,
+                    "total_per_pax_calc": "Creation"
+                },
+                "QS": {
+                    "total": 365,
+                    "name": "Smart Wings",
+                    "id": 543,
+                    "total_per_pax": 365,
+                    "desc": "OW"
+                },
+                "LX": {
+                    "name": "Swiss",
+                    "total": 170,
+                    "total_per_pax": 170,
+                    "id": 331,
+                    "total_sort": 0,
+                    "total_per_pax_calc": "Creation"
+                },
+                "TK": {
+                    "total": 458,
+                    "name": "Turkish Airlines",
+                    "id": 150,
+                    "total_per_pax": 458,
+                    "desc": "OW"
+                },
+                "VY": {
+                    "name": "Vueling",
+                    "total": 381,
+                    "total_per_pax": 381,
+                    "id": 228,
+                    "total_sort": 0,
+                    "total_per_pax_calc": "Creation"
+                },
+                "BT": {
+                    "name": "airBaltic",
+                    "total": 242,
+                    "total_per_pax": 242,
+                    "id": 532,
+                    "total_sort": 0,
+                    "total_per_pax_calc": "Creation"
+                }
+            }
+        },
+        "airports": {
+            "list": {
+                "1305": {
+                    "name": "Paris",
+                    "airports": {
+                        "ORY": {
+                            "name": "Orly",
+                            "id": 992
+                        },
+                        "CDG": {
+                            "name": "Charles De Gaulle",
+                            "id": 990
+                        }
+                    }
+                },
+                "2781": {
+                    "name": "Moscow",
+                    "airports": {
+                        "VKO": {
+                            "name": "Vnukovo",
+                            "id": 2058
+                        },
+                        "SVO": {
+                            "name": "Sheremetyevo",
+                            "id": 2055
+                        },
+                        "DME": {
+                            "name": "Domododevo",
+                            "id": 2944
+                        }
+                    }
+                },
+                "": {
+                    "name": null,
+                    "airports": {
+                        "ZIA": {
+                            "name": null,
+                            "id": null
+                        }
+                    }
+                }
+            },
+            "escale": {
+                "333": {
+                    "name": "Munich",
+                    "airports": {
+                        "MUC": {
+                            "name": "Franz Josef Strauss",
+                            "id": 298
+                        }
+                    }
+                },
+                "405": {
+                    "name": "Helsinki",
+                    "airports": {
+                        "HEL": {
+                            "name": "Helsinki Vantaa",
+                            "id": 344
+                        }
+                    }
+                },
+                "556": {
+                    "name": "Amsterdam",
+                    "airports": {
+                        "AMS": {
+                            "name": "Schiphol",
+                            "id": 444
+                        }
+                    }
+                },
+                "638": {
+                    "name": "Warsaw",
+                    "airports": {
+                        "WAW": {
+                            "name": null,
+                            "id": null
+                        }
+                    }
+                },
+                "1132": {
+                    "name": "Sofia",
+                    "airports": {
+                        "SOF": {
+                            "name": "Sofia",
+                            "id": 872
+                        }
+                    }
+                },
+                "1135": {
+                    "name": "Larnaca",
+                    "airports": {
+                        "LCA": {
+                            "name": "Larnaca",
+                            "id": 874
+                        }
+                    }
+                },
+                "1155": {
+                    "name": "Barcelone",
+                    "airports": {
+                        "BCN": {
+                            "name": "Barcelona",
+                            "id": 889
+                        }
+                    }
+                },
+                "1160": {
+                    "name": "Madrid",
+                    "airports": {
+                        "MAD": {
+                            "name": "Barajas",
+                            "id": 898
+                        }
+                    }
+                },
+                "1305": {
+                    "name": "Paris",
+                    "airports": []
+                },
+                "1371": {
+                    "name": "Heraklion",
+                    "airports": {
+                        "HER": {
+                            "name": "Nikos Kazantzakis",
+                            "id": 1031
+                        }
+                    }
+                },
+                "1465": {
+                    "name": "Rome",
+                    "airports": {
+                        "FCO": {
+                            "name": "Fiumicino",
+                            "id": 1104
+                        }
+                    }
+                },
+                "1478": {
+                    "name": "Ljubliana",
+                    "airports": {
+                        "LJU": {
+                            "name": "Ljubljana",
+                            "id": 1112
+                        }
+                    }
+                },
+                "1496": {
+                    "name": "Prague",
+                    "airports": {
+                        "PRG": {
+                            "name": "Ruzyne",
+                            "id": 1119
+                        }
+                    }
+                },
+                "1521": {
+                    "name": "Vienne",
+                    "airports": {
+                        "VIE": {
+                            "name": "Schwechat",
+                            "id": 1133
+                        }
+                    }
+                },
+                "1546": {
+                    "name": "Lisbonne",
+                    "airports": {
+                        "LIS": {
+                            "name": "Lisboa",
+                            "id": 1145
+                        }
+                    }
+                },
+                "1572": {
+                    "name": "Geneva",
+                    "airports": {
+                        "GVA": {
+                            "name": "Geneve Cointrin",
+                            "id": 1168
+                        }
+                    }
+                },
+                "1585": {
+                    "name": "Zurich",
+                    "airports": {
+                        "ZRH": {
+                            "name": "Zurich",
+                            "id": 1172
+                        }
+                    }
+                },
+                "1602": {
+                    "name": "Istanbul",
+                    "airports": {
+                        "IST": {
+                            "name": "Ataturk",
+                            "id": 1187
+                        }
+                    }
+                },
+                "1626": {
+                    "name": "Chisinau",
+                    "airports": {
+                        "KIV": {
+                            "name": "Chisinau Intl",
+                            "id": 1204
+                        }
+                    }
+                },
+                "1630": {
+                    "name": "Belgrade",
+                    "airports": {
+                        "BEG": {
+                            "name": "Beograd",
+                            "id": 1208
+                        }
+                    }
+                },
+                "2752": {
+                    "name": "Minsk",
+                    "airports": {
+                        "MSQ": {
+                            "name": "Minsk 2",
+                            "id": 2027
+                        }
+                    }
+                },
+                "2772": {
+                    "name": "Yekaterinburg",
+                    "airports": {
+                        "SVX": {
+                            "name": "Koltsovo",
+                            "id": 2046
+                        }
+                    }
+                },
+                "3634": {
+                    "name": "Riga",
+                    "airports": {
+                        "RIX": {
+                            "name": "Riga Intl",
+                            "id": 2878
+                        }
+                    }
+                },
+                "9272": {
+                    "name": "Frankfurt-am-Main",
+                    "airports": {
+                        "FRA": {
+                            "name": "Frankfurt Main",
+                            "id": 292
+                        }
+                    }
+                }
+            }
+        },
+        "hours": {
+            "outbound": {
+                "takeoff_max": 1410,
+                "takeoff_min": 370,
+                "landing_max": 1435,
+                "landing_min": 5
+            },
+            "inbound": {
+                "takeoff_max": 1380,
+                "takeoff_min": 70,
+                "landing_max": 1405,
+                "landing_min": 470
+            }
+        },
+        "duration": {
+            "min": 210,
+            "max": 1230
+        },
+        "travel_duration": {
+            "min": "210",
+            "max": "1190"
+        },
+        "stops": {
+            "nonStop": {
+                "inbound": 19,
+                "outbound": 24,
+                "enable": true
+            },
+            "oneStop": {
+                "inbound": 105,
+                "outbound": 115,
+                "enable": true
+            },
+            "twoMoreStops": {
+                "inbound": 0,
+                "outbound": 0,
+                "enable": false
+            }
+        },
+        "price": {
+            "min": 0,
+            "max": "999"
+        }
+    },
+    "presetFilters": [],
+    "favorite_count": 0
+}

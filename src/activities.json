@@ -1,0 +1,154 @@
+[
+    {
+        "name": "Eifell Tower tour",
+        "available_dates": [
+            {
+                "date": "2018-09-18",
+                "time": "14:30",
+
+                "ticket_types": [
+                    {
+                        "name": "Standard Ticket",
+                        "price": 25,
+                        "currency": "EUR"
+                    },
+                    {
+                        "name": "Fast-lane Ticket",
+                        "price": 39,
+                        "currency": "EUR"
+                    },
+                    {
+                        "name": "VIP Ticket (private guide)",
+                        "price": 78,
+                        "currency": "EUR"
+                    }
+                ]
+            },
+            {
+                "date": "2018-09-19",
+                "time": "16:30",
+
+                "ticket_types": [
+                    {
+                        "name": "Standard Ticket",
+                        "price": 22,
+                        "currency": "EUR"
+                    },
+                    {
+                        "name": "Fast-lane Ticket",
+                        "price": 32,
+                        "currency": "EUR"
+                    },
+                    {
+                        "name": "VIP Ticket (private guide)",
+                        "price": 70,
+                        "currency": "EUR"
+                    }
+                ]
+            }
+        ],
+        "extras": [
+            {
+                "name": "Selfie-stick rental",
+                "price": 7,
+                "currency": "EUR"
+            },
+            {
+                "name": "Umbrella (rental)",
+                "price": 3,
+                "currency": "EUR"
+            }
+        ] 
+    },
+    {
+        "name": "AC/DC concert",
+        "available_dates": [
+            {
+                "date": "2018-09-22",
+                "time": "20:30",
+
+                "ticket_types": [
+                    {
+                        "name": "Standard Ticket (standing)",
+                        "price": 125,
+                        "currency": "EUR"
+                    },
+                    {
+                        "name": "Gold ring (standing)",
+                        "price": 159,
+                        "currency": "EUR"
+                    },
+                    {
+                        "name": "VIP Ticket (seated)",
+                        "price": 180,
+                        "currency": "EUR"
+                    }
+                ]
+            },
+            {
+                "date": "2018-09-23",
+                "time": "20:30",
+
+                "ticket_types": [
+                    {
+                        "name": "Standard Ticket (standing)",
+                        "price": 125,
+                        "currency": "EUR"
+                    },
+                    {
+                        "name": "Gold ring (standing)",
+                        "price": 159,
+                        "currency": "EUR"
+                    }
+                ]
+            }
+        ],
+        "extras": [
+            {
+                "name": "Backstage pass",
+                "price": 99,
+                "currency": "EUR"
+            },
+            {
+                "name": "Backstage pass with Band meet & greet.",
+                "price": 199,
+                "currency": "EUR"
+            }
+        ] 
+    },
+    {
+        "name": "Aqua park fun",
+        "available_dates": [
+            {
+                "date": "2018-09-18",
+                "time": "10:00", 
+                "_comment": "Some may be recurring and have ticket prices and time of admission the same everyday",
+
+                "ticket_types": [
+                    {
+                        "name": "Day-ticket",
+                        "price": 20,
+                        "currency": "EUR"
+                    },
+                    {
+                        "name": "Group of 4 pass",
+                        "price": 65,
+                        "currency": "EUR"
+                    }
+                ]
+            }
+        ],
+        "extras": [
+            {
+                "name": "Rubber duckie (take it home)",
+                "price": 9,
+                "currency": "EUR"
+            },
+            {
+                "name": "Private pool bed and towels",
+                "price": 15,
+                "currency": "EUR"
+            }
+        ] 
+    }
+]

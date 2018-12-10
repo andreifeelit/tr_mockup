@@ -1,0 +1,216 @@
+{
+    "room_types": {
+        "selected": [],
+        "options": [],
+        "settings": {
+            "nb_rooms": 1
+        }
+    },
+    "hotelDataIndex": null,
+    "resultId": null,
+    "geo_map": {
+        "geo_map_zoom": 10,
+        "geo_map_center": {
+            "lat": 46.209,
+            "lng": 6.14301
+        },
+        "city": "",
+        "address": "",
+        "zip_code": ""
+    },
+    "id": "5b3a14f50ac9ee12758b4576",
+    "providers": [
+        "innstanttravel-b2b",
+        "Goglobal"
+    ],
+    "min_provider": "Goglobal",
+    "available_board": [
+        "BB"
+    ],
+    "min_commissionable_price": 1900.1661768,
+    "original_currency": "USD",
+    "allowed_price_currency": null,
+    "min_allowed_price": 1676,
+    "allowed_price": null,
+    "room_board": "BB",
+    "room_board_code": null,
+    "commissionable": true,
+    "room_count": 1,
+    "pay_at_the_hotel": false,
+    "provider_name": null,
+    "price": null,
+    "provider_session_id": "a3.832434981203204",
+    "session_id": "a3120---ff5b3a14e8ca920ff25b3a14e8ca9d7-0-H1",
+    "billable": null,
+    "result_id": null,
+    "global_result_id": "10989{\u0022@attributes\u0022:{\u0022id\u0022:\u002210989\u0022,\u0022providers\u0022:\u0022innstanttravel-b2b,Goglobal\u0022,\u0022minProvider\u0022:\u0022Goglobal\u0022,\u0022hasPackageRate\u0022:\u00220\u0022,\u0022availableBoards\u0022:\u0022BB\u0022},\u0022price\u0022:{\u0022@attributes\u0022:{\u0022currency\u0022:\u0022USD\u0022,\u0022final\u0022:\u00221\u0022,\u0022minCommissionablePrice\u0022:\u00221900.1661768\u0022,\u0022minAllowedPrice\u0022:\u00221676.00\u0022},\u0022min-rooms\u0022:{\u0022min-room\u0022:{\u0022@attributes\u0022:{\u0022board\u0022:\u0022BB\u0022,\u0022commissionAble\u0022:\u00221\u0022,\u0022roomCount\u0022:\u00221\u0022,\u0022payAtTheHotel\u0022:\u00220\u0022,\u0022category\u0022:\u0022standard\u0022,\u0022bedding\u0022:\u0022double\u0022}}}},\u0022non-billable-price\u0022:{\u0022@attributes\u0022:{\u0022currency\u0022:\u0022USD\u0022,\u0022final\u0022:\u00221\u0022,\u0022minCommissionablePrice\u0022:\u00221959.96732\u0022,\u0022minAllowedPrice\u0022:\u00220\u0022},\u0022min-rooms\u0022:{\u0022min-room\u0022:{\u0022@attributes\u0022:{\u0022board\u0022:\u0022BB\u0022,\u0022commissionAble\u0022:\u00221\u0022,\u0022roomCount\u0022:\u00221\u0022,\u0022payAtTheHotel\u0022:\u00220\u0022,\u0022category\u0022:\u0022standard\u0022,\u0022bedding\u0022:\u0022double\u0022}}}}}",
+    "on_request": null,
+    "min_quantity": null,
+    "max_quantity": null,
+    "room_id": null,
+    "name": "ibis Styles Geneve Gare (ex. Savoy)",
+    "code": null,
+    "board": null,
+    "adults": null,
+    "children": null,
+    "end_time": null,
+    "time": null,
+    "time_zone": null,
+    "type": "Double Room",
+    "hotelId": "10989",
+    "enhanced": false,
+    "success": null,
+    "address": "8 PLACE CORNAVIN",
+    "category": null,
+    "phone": "+41 22 9064700",
+    "rating": 3,
+    "superior": false,
+    "latitude": 46.209,
+    "longitude": 6.14301,
+    "zoom": null,
+    "remarks": null,
+    "enriched": true,
+    "cancellationPolicies": null,
+    "bookingInfo": null,
+    "bookDetail": null,
+    "provider_id": 26,
+    "provider_code": "INN",
+    "provider_source_code": "Goglobal",
+    "provider_source_id": null,
+    "site_id": null,
+    "agency_id": 11,
+    "refundable": null,
+    "referenceTo": null,
+    "nbNight": null,
+    "et_price": {},
+    "created_at": {
+        "date": "2018-07-02 15:07:09.000000",
+        "timezone_type": 3,
+        "timezone": "Asia/Jerusalem"
+    },
+    "images": [],
+    "short_description": "The Ibis Iris Gare is a 3-star hotel located in the city center, next to the main train station. Other attractions nearby: Lake Geneva, the Old Town, Notre Dame Square and most of the city's tourist attractions. The newly renovated hotel is housed in an ancient 19th-century building and features a restaurant and a breakfast buffet. Public transportation: The city's central bus station is nearby and provides quick and convenient access to major destinations in the city's suburbs.",
+    "descriptionList": null,
+    "seo_name": "ibis-styles-geneve-gare-ex-savoy-10989",
+    "cityId": "7521",
+    "cityTravId": 1572,
+    "zip": "1201",
+    "fax": "+41-22-9064790",
+    "zone": "",
+    "propertyType": "1",
+    "cityName": "Geneva",
+    "citySeoName": "geneva",
+    "countryCode": "CH",
+    "countryName": "Switzerland",
+    "countrySeoName": "switzerland",
+    "cityState": "Lake Geneva Region",
+    "priority": 185,
+    "facilities": {
+        "124": "Elevators",
+        "176": "Hair Dryer",
+        "197": "TV",
+        "278": "Air conditioning"
+    },
+    "hotelDeId": 358,
+    "number_of_hotels_to_display": 5,
+    "default_img": {
+        "url_medium": "44/884/44884552.jpg",
+        "cdn": "8157dd39bb07728ec94e-4be64a65cebae9dbacb03351d19d35cb.ssl.cf2.rackcdn.com/sml/",
+        "alt": "",
+        "title": "",
+        "text": ""
+    },
+    "img": [
+        {
+            "url_medium": "44/884/44884552.jpg",
+            "cdn": "8157dd39bb07728ec94e-4be64a65cebae9dbacb03351d19d35cb.ssl.cf2.rackcdn.com/sml/",
+            "alt": "",
+            "title": "",
+            "text": ""
+        },
+        {
+            "url_medium": "39/566/39566941.jpg",
+            "cdn": "8157dd39bb07728ec94e-4be64a65cebae9dbacb03351d19d35cb.ssl.cf2.rackcdn.com/sml/",
+            "alt": "",
+            "title": "",
+            "text": ""
+        },
+        {
+            "url_medium": "39/566/39566945.jpg",
+            "cdn": "8157dd39bb07728ec94e-4be64a65cebae9dbacb03351d19d35cb.ssl.cf2.rackcdn.com/sml/",
+            "alt": "",
+            "title": "",
+            "text": ""
+        },
+        {
+            "url_medium": "17/217/17217808.jpg",
+            "cdn": "8157dd39bb07728ec94e-4be64a65cebae9dbacb03351d19d35cb.ssl.cf2.rackcdn.com/sml/",
+            "alt": "Featured Image",
+            "title": "Featured Image",
+            "text": "Featured Image"
+        },
+        {
+            "url_medium": "17/217/17217822.jpg",
+            "cdn": "8157dd39bb07728ec94e-4be64a65cebae9dbacb03351d19d35cb.ssl.cf2.rackcdn.com/sml/",
+            "alt": "City View",
+            "title": "City View",
+            "text": "City View"
+        },
+        {
+            "url_medium": "17/217/17217821.jpg",
+            "cdn": "8157dd39bb07728ec94e-4be64a65cebae9dbacb03351d19d35cb.ssl.cf2.rackcdn.com/sml/",
+            "alt": "City View",
+            "title": "City View",
+            "text": "City View"
+        },
+        {
+            "url_medium": "17/217/17217820.jpg",
+            "cdn": "8157dd39bb07728ec94e-4be64a65cebae9dbacb03351d19d35cb.ssl.cf2.rackcdn.com/sml/",
+            "alt": "City View",
+            "title": "City View",
+            "text": "City View"
+        },
+        {
+            "url_medium": "17/217/17217819.jpg",
+            "cdn": "8157dd39bb07728ec94e-4be64a65cebae9dbacb03351d19d35cb.ssl.cf2.rackcdn.com/sml/",
+            "alt": "City View",
+            "title": "City View",
+            "text": "City View"
+        },
+        {
+            "url_medium": "17/217/17217814.jpg",
+            "cdn": "8157dd39bb07728ec94e-4be64a65cebae9dbacb03351d19d35cb.ssl.cf2.rackcdn.com/sml/",
+            "alt": "Staircase",
+            "title": "Staircase",
+            "text": "Staircase"
+        },
+        {
+            "url_medium": "41/717/41717183.jpg",
+            "cdn": "8157dd39bb07728ec94e-4be64a65cebae9dbacb03351d19d35cb.ssl.cf2.rackcdn.com/sml/",
+            "alt": "2",
+            "title": "2",
+            "text": "2"
+        },
+        {
+            "url_medium": "17/217/17217815.jpg",
+            "cdn": "8157dd39bb07728ec94e-4be64a65cebae9dbacb03351d19d35cb.ssl.cf2.rackcdn.com/sml/",
+            "alt": "Staircase",
+            "title": "Staircase",
+            "text": "Staircase"
+        },
+        {
+            "url_medium": "0/63/63450.jpg",
+            "cdn": "8157dd39bb07728ec94e-4be64a65cebae9dbacb03351d19d35cb.ssl.cf2.rackcdn.com/sml/",
+            "alt": "Map 1",
+            "title": "Map 1",
+            "text": "Map 1"
+        }
+    ],
+    "hotel_price": 1901,
+    "hotel_price_delta": 1901,
+    "hotel_price_currency": "USD",
+    "title": "ibis Styles Geneve Gare (ex. Savoy)",
+    "step": {
+        "title": ""
+    }
+}

@@ -1,0 +1,404 @@
+{
+    "filters": {
+        "titleName": "Filtering",
+        "sections": [
+            {
+                "titleName": "Hotel name",
+                "icon": "fa fa-home",
+                "type": "input",
+                "propertyPath": "name",
+                "value": "",
+                "autocomplete_list": [
+                    "Auteuil",
+                    "Beau Rivage",
+                    "Best Western Astoria",
+                    "Best Western Chavannes De Bogis",
+                    "Best Western Diplomate",
+                    "Best Western Hotel Century",
+                    "Bristol",
+                    "Churchill",
+                    "Cornavin",
+                    "Crowne Plaza Geneva",
+                    "DAngleterre",
+                    "De La Paix Geneva",
+                    "Des Horlogers",
+                    "Design Hotel F6 (ex. Quality City Centre)",
+                    "Drake And Longchamp (ex. Minotel)",
+                    "Eastwest Hotel",
+                    "Edelweiss Manotel Hotel",
+                    "Eden",
+                    "Express By Holiday Inn",
+                    "Four Seasons Des Bergues Geneva",
+                    "Grand Kempinski",
+                    "HOSTELLERIE DE LA VENDEE",
+                    "Hotel Epsom Manotel",
+                    "Hotel International \u0026 Terminus",
+                    "Hotel Le Warwick",
+                    "Hotel Pax",
+                    "Hotel Rotary",
+                    "Hotel Royal Manotel",
+                    "IBIS GENEVA CENTRE NATIONS HOTEL",
+                    "Ibis Geneve Aeroport",
+                    "Ibis Geneve Centre Gare",
+                    "Ibis Geneve Petit Lancy",
+                    "Intercontinental Geneva (Deluxe)",
+                    "Jade Hotel Geneva",
+                    "Jade Manotel",
+                    "Kipling Hotel",
+                    "La Cour Des Augustins",
+                    "La Reserve",
+                    "Le Richemond",
+                    "Mandarin Oriental",
+                    "Moderne",
+                    "Mon-Repos Swiss Q Hotel",
+                    "Movenpick \u0026 Casino",
+                    "NH Airport",
+                    "Nash Airport Hotel",
+                    "Nash Rex",
+                    "Nash Ville Hotel",
+                    "Novotel Geneve Centre",
+                    "Park and Suites Geneva Airport Hotel",
+                    "President Wilson",
+                    "RESIDENCE LAFFITTE",
+                    "RICHEMOND ROCCOFORTE",
+                    "ROYAL (EXECUTIVE ROOMS)",
+                    "Ramada Encore Hotel",
+                    "STARLING GENEVA",
+                    "Sagitta Swiss Q Hotel",
+                    "Strasbourg-Univers",
+                    "Suisse Geneve",
+                    "Suitehotel Gen\u00e8ve",
+                    "Swiss Luxury Apartments",
+                    "Swissotel Metropole",
+                    "Windsor",
+                    "ibis Styles Geneve Gare (ex. Savoy)"
+                ]
+            },
+            {
+                "titleName": "Type of accommodation",
+                "icon": "fa fa-circle-o",
+                "type": "checkbox_collection",
+                "propertyPath": "room_board",
+                "elements": [
+                    {
+                        "name": "sleep only",
+                        "value": false,
+                        "propertyValue": "RO",
+                        "length": 54
+                    },
+                    {
+                        "name": "Bed and Breakfast",
+                        "value": false,
+                        "propertyValue": "BB",
+                        "length": 9
+                    }
+                ]
+            },
+            {
+                "titleName": "Price range",
+                "icon": "fa fa-eur",
+                "type": "slider",
+                "length": 63,
+                "propertyPath": "et_price.price_ttc_room_all_night",
+                "minValue": 507,
+                "maxValue": 5001,
+                "value": {
+                    "min": 507,
+                    "max": 5001
+                },
+                "selector": "hotel_price"
+            },
+            {
+                "titleName": "Stars",
+                "icon": "fa fa-star",
+                "type": "slider",
+                "length": {
+                    "1": 0,
+                    "2": 5,
+                    "3": 24,
+                    "4": 20,
+                    "5": 14
+                },
+                "propertyPath": "rating",
+                "minValue": 2,
+                "maxValue": 5,
+                "value": {
+                    "min": 2,
+                    "max": 5
+                }
+            },
+            {
+                "titleName": "\u05de\u05ea\u05e7\u05e0\u05d9\u05dd",
+                "icon": "fa fa-cogs",
+                "type": "checkbox_collection",
+                "propertyPath": "facilities",
+                "elements": [
+                    {
+                        "name": "\u05d0\u05d5\u05dc\u05dd \u05db\u05e0\u05e1\u05d9\u05dd",
+                        "value": false,
+                        "propertyValue": "\u05d0\u05d5\u05dc\u05dd \u05db\u05e0\u05e1\u05d9\u05dd",
+                        "length": 4
+                    },
+                    {
+                        "name": "\u05d0\u05d9\u05e0\u05d8\u05e8\u05e0\u05d8",
+                        "value": false,
+                        "propertyValue": "\u05d0\u05d9\u05e0\u05d8\u05e8\u05e0\u05d8",
+                        "length": 16
+                    },
+                    {
+                        "name": "\u05d0\u05d9\u05e0\u05d8\u05e8\u05e0\u05d8 \u05d0\u05dc\u05d7\u05d5\u05d8\u05d9",
+                        "value": false,
+                        "propertyValue": "\u05d0\u05d9\u05e0\u05d8\u05e8\u05e0\u05d8 \u05d0\u05dc\u05d7\u05d5\u05d8\u05d9",
+                        "length": 3
+                    },
+                    {
+                        "name": "\u05d0\u05e8\u05d5\u05d7\u05ea \u05d1\u05d5\u05e7\u05e8",
+                        "value": false,
+                        "propertyValue": "\u05d0\u05e8\u05d5\u05d7\u05ea \u05d1\u05d5\u05e7\u05e8",
+                        "length": 3
+                    },
+                    {
+                        "name": "\u05d1\u05e8",
+                        "value": false,
+                        "propertyValue": "\u05d1\u05e8",
+                        "length": 21
+                    },
+                    {
+                        "name": "\u05d1\u05e8\u05d9\u05db\u05ea \u05e9\u05d7\u05d9\u05d4",
+                        "value": false,
+                        "propertyValue": "\u05d1\u05e8\u05d9\u05db\u05ea \u05e9\u05d7\u05d9\u05d4",
+                        "length": 6
+                    },
+                    {
+                        "name": "\u05d2\u05df",
+                        "value": false,
+                        "propertyValue": "\u05d2\u05df",
+                        "length": 1
+                    },
+                    {
+                        "name": "\u05d4\u05de\u05e8\u05ea \u05de\u05d8\u05d1\u05e2",
+                        "value": false,
+                        "propertyValue": "\u05d4\u05de\u05e8\u05ea \u05de\u05d8\u05d1\u05e2",
+                        "length": 14
+                    },
+                    {
+                        "name": "\u05d4\u05e9\u05db\u05e8\u05ea \u05e8\u05db\u05d1",
+                        "value": false,
+                        "propertyValue": "\u05d4\u05e9\u05db\u05e8\u05ea \u05e8\u05db\u05d1",
+                        "length": 2
+                    },
+                    {
+                        "name": "\u05d7\u05d3\u05e8 \u05d9\u05e9\u05d9\u05d1\u05d5\u05ea",
+                        "value": false,
+                        "propertyValue": "\u05d7\u05d3\u05e8 \u05d9\u05e9\u05d9\u05d1\u05d5\u05ea",
+                        "length": 2
+                    },
+                    {
+                        "name": "\u05d7\u05d9\u05d5\u05ea \u05de\u05d7\u05de\u05d3 \u05de\u05d5\u05ea\u05e8\u05d5\u05ea \u05d1\u05de\u05d3\u05d9\u05e0\u05d9\u05d5\u05ea",
+                        "value": false,
+                        "propertyValue": "\u05d7\u05d9\u05d5\u05ea \u05de\u05d7\u05de\u05d3 \u05de\u05d5\u05ea\u05e8\u05d5\u05ea \u05d1\u05de\u05d3\u05d9\u05e0\u05d9\u05d5\u05ea",
+                        "length": 7
+                    },
+                    {
+                        "name": "\u05d7\u05e0\u05d5\u05d9\u05d5\u05ea",
+                        "value": false,
+                        "propertyValue": "\u05d7\u05e0\u05d5\u05d9\u05d5\u05ea",
+                        "length": 3
+                    },
+                    {
+                        "name": "\u05d7\u05e0\u05d5\u05ea \u05de\u05d6\u05db\u05e8\u05d5\u05ea",
+                        "value": false,
+                        "propertyValue": "\u05d7\u05e0\u05d5\u05ea \u05de\u05d6\u05db\u05e8\u05d5\u05ea",
+                        "length": 2
+                    },
+                    {
+                        "name": "\u05d8\u05dc\u05d5\u05d5\u05d9\u05d6\u05d9\u05d4",
+                        "value": false,
+                        "propertyValue": "\u05d8\u05dc\u05d5\u05d5\u05d9\u05d6\u05d9\u05d4",
+                        "length": 39
+                    },
+                    {
+                        "name": "\u05d8\u05dc\u05e4\u05d5\u05df",
+                        "value": false,
+                        "propertyValue": "\u05d8\u05dc\u05e4\u05d5\u05df",
+                        "length": 11
+                    },
+                    {
+                        "name": "\u05db\u05e1\u05e4\u05ea",
+                        "value": false,
+                        "propertyValue": "\u05db\u05e1\u05e4\u05ea",
+                        "length": 13
+                    },
+                    {
+                        "name": "\u05de\u05d2\u05d4\u05e5",
+                        "value": false,
+                        "propertyValue": "\u05de\u05d2\u05d4\u05e5",
+                        "length": 3
+                    },
+                    {
+                        "name": "\u05de\u05d2\u05e8\u05e9 \u05d7\u05e0\u05d9\u05d4",
+                        "value": false,
+                        "propertyValue": "\u05de\u05d2\u05e8\u05e9 \u05d7\u05e0\u05d9\u05d4",
+                        "length": 15
+                    },
+                    {
+                        "name": "\u05de\u05d2\u05e8\u05e9 \u05d8\u05e0\u05d9\u05e1",
+                        "value": false,
+                        "propertyValue": "\u05de\u05d2\u05e8\u05e9 \u05d8\u05e0\u05d9\u05e1",
+                        "length": 1
+                    },
+                    {
+                        "name": "\u05de\u05d3\u05d9\u05e0\u05d9\u05d5\u05ea \u05d2\u05d9\u05e9\u05d4 \u05dc\u05db\u05d9\u05e1\u05d0 \u05d2\u05dc\u05d2\u05dc\u05d9\u05dd",
+                        "value": false,
+                        "propertyValue": "\u05de\u05d3\u05d9\u05e0\u05d9\u05d5\u05ea \u05d2\u05d9\u05e9\u05d4 \u05dc\u05db\u05d9\u05e1\u05d0 \u05d2\u05dc\u05d2\u05dc\u05d9\u05dd",
+                        "length": 2
+                    },
+                    {
+                        "name": "\u05de\u05d5\u05e2\u05d3\u05d5\u05df \u05d1\u05e8\u05d9\u05d0\u05d5\u05ea",
+                        "value": false,
+                        "propertyValue": "\u05de\u05d5\u05e2\u05d3\u05d5\u05df \u05d1\u05e8\u05d9\u05d0\u05d5\u05ea",
+                        "length": 2
+                    },
+                    {
+                        "name": "\u05de\u05d5\u05e2\u05d3\u05d5\u05df \u05dc\u05d9\u05dc\u05d4",
+                        "value": false,
+                        "propertyValue": "\u05de\u05d5\u05e2\u05d3\u05d5\u05df \u05dc\u05d9\u05dc\u05d4",
+                        "length": 1
+                    },
+                    {
+                        "name": "\u05de\u05d9\u05d6\u05d5\u05d2 \u05d0\u05d5\u05d5\u05d9\u05e8",
+                        "value": false,
+                        "propertyValue": "\u05de\u05d9\u05d6\u05d5\u05d2 \u05d0\u05d5\u05d5\u05d9\u05e8",
+                        "length": 32
+                    },
+                    {
+                        "name": "\u05de\u05d9\u05d9\u05d1\u05e9 \u05e9\u05d9\u05e2\u05e8",
+                        "value": false,
+                        "propertyValue": "\u05de\u05d9\u05d9\u05d1\u05e9 \u05e9\u05d9\u05e2\u05e8",
+                        "length": 20
+                    },
+                    {
+                        "name": "\u05de\u05d9\u05e0\u05d9-\u05d1\u05e8",
+                        "value": false,
+                        "propertyValue": "\u05de\u05d9\u05e0\u05d9-\u05d1\u05e8",
+                        "length": 13
+                    },
+                    {
+                        "name": "\u05de\u05e1\u05d0\u05d2\u0027-\u05e2\u05d9\u05e1\u05d5\u05d9",
+                        "value": false,
+                        "propertyValue": "\u05de\u05e1\u05d0\u05d2\u0027-\u05e2\u05d9\u05e1\u05d5\u05d9",
+                        "length": 1
+                    },
+                    {
+                        "name": "\u05de\u05e1\u05e2\u05d3\u05d4",
+                        "value": false,
+                        "propertyValue": "\u05de\u05e1\u05e2\u05d3\u05d4",
+                        "length": 7
+                    },
+                    {
+                        "name": "\u05de\u05e2\u05dc\u05d9\u05ea",
+                        "value": false,
+                        "propertyValue": "\u05de\u05e2\u05dc\u05d9\u05ea",
+                        "length": 41
+                    },
+                    {
+                        "name": "\u05de\u05e2\u05e6\u05d1 \u05e9\u05d9\u05e2\u05e8",
+                        "value": false,
+                        "propertyValue": "\u05de\u05e2\u05e6\u05d1 \u05e9\u05d9\u05e2\u05e8",
+                        "length": 1
+                    },
+                    {
+                        "name": "\u05de\u05e8\u05db\u05d6 \u05e2\u05e1\u05e7\u05d9\u05dd",
+                        "value": false,
+                        "propertyValue": "\u05de\u05e8\u05db\u05d6 \u05e2\u05e1\u05e7\u05d9\u05dd",
+                        "length": 9
+                    },
+                    {
+                        "name": "\u05de\u05e8\u05e4\u05e1\u05ea",
+                        "value": false,
+                        "propertyValue": "\u05de\u05e8\u05e4\u05e1\u05ea",
+                        "length": 3
+                    },
+                    {
+                        "name": "\u05de\u05ea\u05d7\u05dd \u05e7\u05e4\u05d4",
+                        "value": false,
+                        "propertyValue": "\u05de\u05ea\u05d7\u05dd \u05e7\u05e4\u05d4",
+                        "length": 4
+                    },
+                    {
+                        "name": "\u05e0\u05d2\u05df \u05d3\u05d9\u05e1\u05e7\u05d9\u05dd",
+                        "value": false,
+                        "propertyValue": "\u05e0\u05d2\u05df \u05d3\u05d9\u05e1\u05e7\u05d9\u05dd",
+                        "length": 1
+                    },
+                    {
+                        "name": "\u05e1\u05d0\u05d5\u05e0\u05d4",
+                        "value": false,
+                        "propertyValue": "\u05e1\u05d0\u05d5\u05e0\u05d4",
+                        "length": 10
+                    },
+                    {
+                        "name": "\u05e1\u05d1\u05dc",
+                        "value": false,
+                        "propertyValue": "\u05e1\u05d1\u05dc",
+                        "length": 2
+                    },
+                    {
+                        "name": "\u05e1\u05dc\u05d5\u05df \u05d9\u05d5\u05e4\u05d9",
+                        "value": false,
+                        "propertyValue": "\u05e1\u05dc\u05d5\u05df \u05d9\u05d5\u05e4\u05d9",
+                        "length": 6
+                    },
+                    {
+                        "name": "\u05e1\u05e4\u05d0",
+                        "value": false,
+                        "propertyValue": "\u05e1\u05e4\u05d0",
+                        "length": 1
+                    },
+                    {
+                        "name": "\u05e7\u05d1\u05dc\u05d4 24 \u05e9\u05e2\u05d5\u05ea \u05d1\u05d9\u05de\u05de\u05d4",
+                        "value": false,
+                        "propertyValue": "\u05e7\u05d1\u05dc\u05d4 24 \u05e9\u05e2\u05d5\u05ea \u05d1\u05d9\u05de\u05de\u05d4",
+                        "length": 10
+                    },
+                    {
+                        "name": "\u05e8\u05d3\u05d9\u05d5",
+                        "value": false,
+                        "propertyValue": "\u05e8\u05d3\u05d9\u05d5",
+                        "length": 23
+                    },
+                    {
+                        "name": "\u05e9\u05d5\u05e2\u05e8",
+                        "value": false,
+                        "propertyValue": "\u05e9\u05d5\u05e2\u05e8",
+                        "length": 11
+                    },
+                    {
+                        "name": "\u05e9\u05d9\u05d7\u05d5\u05ea \u05d4\u05e9\u05db\u05de\u05d4",
+                        "value": false,
+                        "propertyValue": "\u05e9\u05d9\u05d7\u05d5\u05ea \u05d4\u05e9\u05db\u05de\u05d4",
+                        "length": 9
+                    },
+                    {
+                        "name": "\u05e9\u05d9\u05e8\u05d5\u05ea \u05d7\u05d3\u05e8\u05d9\u05dd",
+                        "value": false,
+                        "propertyValue": "\u05e9\u05d9\u05e8\u05d5\u05ea \u05d7\u05d3\u05e8\u05d9\u05dd",
+                        "length": 32
+                    },
+                    {
+                        "name": "\u05e9\u05d9\u05e8\u05d5\u05ea\u05d9 \u05db\u05d1\u05d9\u05e1\u05d4",
+                        "value": false,
+                        "propertyValue": "\u05e9\u05d9\u05e8\u05d5\u05ea\u05d9 \u05db\u05d1\u05d9\u05e1\u05d4",
+                        "length": 29
+                    },
+                    {
+                        "name": "\u05e9\u05e8\u05d5\u05ea\u05d9 \u05d1\u05d9\u05d9\u05d1\u05d9\u05e1\u05d9\u05d8\u05e8",
+                        "value": false,
+                        "propertyValue": "\u05e9\u05e8\u05d5\u05ea\u05d9 \u05d1\u05d9\u05d9\u05d1\u05d9\u05e1\u05d9\u05d8\u05e8",
+                        "length": 3
+                    }
+                ]
+            }
+        ]
+    }
+}
